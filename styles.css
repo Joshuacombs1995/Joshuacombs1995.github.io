@@ -1,0 +1,26 @@
+.Sauce {
+	width: 23%;
+	float: right;
+	margin-left: 17px;
+	margin-top: 15px;
+}
+
+.aplus {
+	width: 30%;
+	margin: auto;
+	display: block;
+	margin-top: 30px;
+}
+
+.contact{
+	margin: auto;
+	display: block;
+}
+
+.resume{
+	display: block;
+	margin-left: 417px;
+	margin-right: 418px;
+	color: white;
+	background-color: darkblue;
+}
