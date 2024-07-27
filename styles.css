@@ -10,6 +10,7 @@
 	margin: auto;
 	display: block;
 	margin-top: 30px;
+	border-radius: 15px;
 }
 
 .contact{
@@ -19,8 +20,9 @@
 
 .resume{
 	display: block;
-	margin-left: 417px;
-	margin-right: 418px;
+	margin-left: 415px;
+	margin-right: 415px;
 	color: white;
 	background-color: darkblue;
+	width: 100px;
 }
