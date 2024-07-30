@@ -1,9 +1,7 @@
 <!DOCTYPE css>
 .Sauce {
-	width: 10%;
-	heigth: 10%;
-	float: right;
 	margin: auto;
+	display: block;
 }
 
 .aplus {
