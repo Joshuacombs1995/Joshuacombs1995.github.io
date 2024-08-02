@@ -20,11 +20,10 @@
 }
 
 .resume {
-	margin: auto;
-	display: block;
+	float: center;
 	color: white;
 	background-color: pink;
-	font-size: 50;
+	font-size: 150px;
 }
 
 .sauceface {
@@ -57,5 +56,5 @@
 }
 
 .borderradius{
-	border-radius: 15px;
+	border-radius: 20px;
 }
