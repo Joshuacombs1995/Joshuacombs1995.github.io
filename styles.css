@@ -20,6 +20,8 @@
 }
 
 .resume {
+	margin: auto;
+	display: block;
 	color: white;
 	background-color: pink;
 	width: 100px;
