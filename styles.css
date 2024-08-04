@@ -63,3 +63,8 @@
 .borderradius2 {
 	border-radius: 150px;
 }
+
+pb {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
