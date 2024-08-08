@@ -72,3 +72,7 @@
   direction: rtl;
   unicode-bidi: bidi-override;
 }
+
+.poo{
+	border: 5px: solid;
+}
