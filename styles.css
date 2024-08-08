@@ -62,14 +62,17 @@
 .borderradius {
 	border-radius: 20px;
 	border-color: black;
+	border: 5px solid;
 }
 
 .borderradius2 {
 	border-radius: 150px;
+	border: 5px solid;
 }
 
 .borderradius3 {
 	margin-right: auto;
+	border: 5px solid;
 }
 
 .pb {
