@@ -76,4 +76,6 @@
 .poo {
 	border: 5px solid;
 	margin-bottom: auto;
+	text-align: center;
+	font-size: 30px;
 }
