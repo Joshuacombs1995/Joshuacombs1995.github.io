@@ -73,6 +73,7 @@
 .borderradius3 {
 	margin-right: auto;
 	border: 5px solid;
+	border-radius: 20px;
 }
 
 .pb {
