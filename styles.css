@@ -73,6 +73,7 @@
   unicode-bidi: bidi-override;
 }
 
-.poo{
+.poo {
 	border: 5px solid;
+	margin-bottom: auto;
 }
