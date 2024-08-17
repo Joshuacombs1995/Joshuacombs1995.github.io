@@ -60,6 +60,7 @@
 }
 
 .borderradius {
+	margin-center: auto;
 	border-radius: 20px;
 	border-color: black;
 	border: 5px solid;
