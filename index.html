@@ -1,69 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="styles.css">
-<style>
-body {
-	background-image:
-	url('images/IMG_0447.png');
-	background-repeat: repeat;
-	background-attachment: scroll
-}
-</style>
-<title>Joshua Combs's Website</title>	
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joshua Combs's Website</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      background-image: url('images/IMG_0447.png');
+      background-repeat: repeat;
+      background-attachment: scroll;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.85);
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1, header h2, header h3 {
+      margin: 10px 0;
+    }
+
+    .main-title {
+      font-family: Copperplate, serif;
+      font-size: 50px;
+      background-color: black;
+      color: white;
+      padding: 20px;
+    }
+
+    .name-variants {
+      margin-top: 30px;
+    }
+
+    .name-variants h1,
+    .name-variants h2,
+    .name-variants h3 {
+      margin: 5px;
+      padding: 10px;
+    }
+
+    .center {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .center img {
+      max-width: 300px;
+      height: auto;
+      border: 5px solid white;
+    }
+
+    .directory {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: black;
+    }
+
+    .directory h1 {
+      font-family: Copperplate, serif;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .directory a button {
+      font-size: 20px;
+      margin: 10px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    .intro {
+      text-align: center;
+      font-size: 20px;
+      padding: 20px;
+      background-color: black;
+      color: white;
+    }
+
+    .skills-section {
+      padding: 40px 20px;
+    }
+
+    .skills-section h1 {
+      text-align: center;
+      font-size: 32px;
+    }
+
+    ul.skills {
+      list-style-type: none;
+      padding: 0;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    ul.skills li {
+      margin: 20px 0;
+      padding: 15px;
+      font-size: 24px;
+      border-radius: 5px;
+    }
+
+    ul.skills li:nth-child(odd) {
+      background-color: white;
+      color: black;
+    }
+
+    ul.skills li:nth-child(even) {
+      background-color: black;
+      color: white;
+    }
+
+    .donate {
+      text-align: center;
+      margin: 40px 0;
+    }
+  </style>
 </head>
 <body>
-<header>
-	<div class="wrapper">
-		<h1 style="font-family:copperplate;color:white;background-color:black;text-align:center;font-size:50px;">This is the Ultimate Website for<br><strong><em>Joshua Davis Combs!</strong></em></h1>
-		<h1 style="text-align:left;background-color:white;font-size:29px;">J o s h u a</h1>
-		<h1 style="background-color:red;color:white;" class="pb">J o s h u a</h1>
-		<h2 style="text-align:center;color:white;background-color:black;font-size:30px;">D A V I S</h2>
-		<h3 style="text-align:right;background-color:white;font-size:29px;">C o m b s</h3>
-		<h3 style="background-color:red;color:white;text-align:left;" class="pb">C o m b s</h3>
-</div>
-<div class="center">
-		<img src="images/saucesammich.jpg" alt="Joshua D. Combs">
-		<img src="images/sauceguns.jpg" alt="Josh Davis Combs face">
-		<img src="images/diffsauce.JPG" alt="Josh Combs">
-</div>
-	<br>
-<h1 style="font-family:copperplate;color:white;text-align:center;background-color:black;">DIRECTORY</h1>
-<div style="text-align:center;font-size:40px;">
-<a href="resume.html">
-<button>Resume</button>
-</a>
-<a href="lifestory.html">
-<button>Life Story</button>
-</a>
-<a href="qualifications.html">
-<button>Qualifications</button>
-</a>
-<a href="contact.html">
-<button>Contact Me!</button>
-</a>
-</div>
-	<br>
-	<br>
-	<h2 style="color:white;background-color:black;text-align:center;">I have created this webpage from <em>ScRaTcH</em> to showcase my technical abilities and to hopefully impress potential employers!</h2>
-	<br>
-		<h1 style="text-align:center;color:white;">BEHOLD!<br>an unordered list of some of my super sweet skills</h1>
-<ul>
-<li style="background-color:white;color:red;text-align:center;font-size:35;"><strong>I'm A+ Certified!</strong></li>
-<br>
-<li style="background-color:black;color:white;text-align:left;font-size:28;">I'm adept at handling situations I've never been in with ease and efficiency.</li>
-<br>
-<li style="background-color:white;color:teal;text-align:left;font-size:28;">I'm willing to learn any and everything I need to be sucessful in the workplace.</li>
-<br>
-<li style="background-color:black;color:white;text-align:left;font-size:28;">Ready for a more challenging and hopefully more rewarding line of work.</li>
-<br>
-<li style="background-color:white;color:purple;text-align:left;font-size:28;">Experienced in Microsoft Office, Windows, Linux, MacOS, and ChromeOS.</li>
-<br>
-</ul>
-</header>
-<form action="https://www.paypal.com/donate" method="post" target="_top"> <!-- Identify your business so that you can collect the payments. --> <input type="hidden" name="Joshua Combs's Website" value="04.tapper-futons@icloud.com"> <!-- Specify details about the contribution --> <input type="hidden" name="no_recurring" value="0"> <input type="hidden" name="item_name" value="Friends of the Park"> <input type="hidden" name="item_number" value="Fall Cleanup Campaign"> <input type="hidden" name="currency_code" value="USD"> <!-- Display the payment button. --> <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate"> <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" ></form>
-</div>
+
+  <header>
+    <h1 class="main-title">This is the Ultimate Website for<br><strong><em>Joshua Davis Combs!</em></strong></h1>
+
+    <div class="name-variants">
+      <h1 style="background-color:white; color:black;">J o s h u a</h1>
+      <h1 style="background-color:red;">J o s h u a</h1>
+      <h2 style="background-color:black;">D A V I S</h2>
+      <h3 style="background-color:white; color:black;">C o m b s</h3>
+      <h3 style="background-color:red;">C o m b s</h3>
+    </div>
+  </header>
+
+  <main>
+    <section class="center">
+      <img src="images/saucesammich.jpg" alt="Joshua D. Combs">
+      <img src="images/sauceguns.jpg" alt="Josh Davis Combs face">
+      <img src="images/diffsauce.JPG" alt="Josh Combs">
+    </section>
+
+    <section class="directory">
+      <h1>DIRECTORY</h1>
+      <a href="resume.html"><button>Resume</button></a>
+      <a href="lifestory.html"><button>Life Story</button></a>
+      <a href="qualifications.html"><button>Qualifications</button></a>
+      <a href="contact.html"><button>Contact Me!</button></a>
+    </section>
+
+    <section class="intro">
+      <h2>I have created this webpage from <em>ScRaTcH</em> to showcase my technical abilities and to hopefully impress potential employers!</h2>
+    </section>
+
+    <section class="skills-section">
+      <h1>BEHOLD!<br>an unordered list of some of my super sweet skills</h1>
+      <ul class="skills">
+        <li style="color: red;"><strong>I'm A+ Certified!</strong></li>
+        <li>I'm adept at handling situations I've never been in with ease and efficiency.</li>
+        <li>I'm willing to learn anything and everything I need to be successful in the workplace.</li>
+        <li>Ready for a more challenging and hopefully more rewarding line of work.</li>
+        <li>Experienced in Microsoft Office, Windows, Linux, MacOS, and ChromeOS.</li>
+      </ul>
+    </section>
+
+    <div class="donate">
+      <form action="https://www.paypal.com/donate" method="post" target="_top">
+        <input type="hidden" name="business" value="04.tapper-futons@icloud.com" />
+        <input type="hidden" name="no_recurring" value="0" />
+        <input type="hidden" name="item_name" value="Friends of the Park" />
+        <input type="hidden" name="item_number" value="Fall Cleanup Campaign" />
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="image" name="submit"
+          src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate" />
+        <img alt="" width="1" height="1"
+          src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" />
+      </form>
+    </div>
+  </main>
 </body>
 </html>
