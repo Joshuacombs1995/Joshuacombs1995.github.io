@@ -1,24 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-<link rel="stylesheet" href="styles.css">
-<style>
-body {
-	background-image:
-	url('images/saucebandpic.jpg');
-}
-</style>
-      <title>Joshua Combs's Website</title>
-   </head>
-   <body>
-		<header>
-		<h1 style="font-family:copperplate;text-align:center;background-color:white;font-size:42px;">Contact Me</h1>
-		</header>
-			<p style="color:black;font-size:32px;text-align:center;">I'm looking to expand my horizons!<br>Contact me ANYTIME at<br> <strong><em>joshuacombs1995@gmail.com</em></strong><br> or give me a call or text ANYTIME at<br> <em><strong>573-220-7367</em></strong>
-   </body>
-	<br>
-	<br>
-	   <a class="poo" href="index.html">Home</a></p>
-	<br>
-<img class="saucebandpic" src="images/saucebandpic.jpg" alt="Joshua Combs pointing">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joshua Combs's Website</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      color: #222;
+      background: url('images/saucebandpic.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    header {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 1.5rem;
+      border-bottom: 3px solid #444;
+    }
+
+    header h1 {
+      font-family: Copperplate, serif;
+      font-size: 42px;
+      margin: 0;
+      color: #111;
+    }
+
+    .contact {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.8);
+      margin: 2rem auto;
+      padding: 2rem;
+      max-width: 700px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    .contact p {
+      font-size: 22px;
+      line-height: 1.6;
+    }
+
+    .contact strong {
+      font-size: 24px;
+      color: #000;
+    }
+
+    footer {
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    footer a {
+      font-size: 22px;
+      font-family: Copperplate, serif;
+      text-decoration: none;
+      color: #000;
+      border: 2px solid #000;
+      padding: 8px 16px;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+    }
+
+    footer a:hover {
+      background: #000;
+      color: #fff;
+    }
+
+    .profile-img {
+      display: block;
+      margin: 2rem auto;
+      max-width: 400px;
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      border: 3px solid #444;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Contact Me</h1>
+  </header>
+
+  <main>
+    <section class="contact">
+      <p>I'm looking to expand my horizons!<br>
+        Contact me anytime at:<br>
+        <strong><em>joshuacombs1995@gmail.com</em></strong><br>
+        or call/text anytime at:<br>
+        <strong><em>573-220-7367</em></strong>
+      </p>
+    </section>
+
+    <img class="profile-img" src="images/saucebandpic.jpg" alt="Joshua Combs pointing">
+  </main>
+
+  <footer>
+    <a href="index.html">Home</a>
+  </footer>
+</body>
 </html>
