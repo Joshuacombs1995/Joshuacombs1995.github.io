@@ -94,8 +94,9 @@
 .center {
 	display: flex;
 	justify-content: center;
-	gap: 20px;
-	border: 5px dotted;
+	gap: 40px;
+	border: 10px dotted;
+	border-color: green;
 }
 
 .buttoncenter {
