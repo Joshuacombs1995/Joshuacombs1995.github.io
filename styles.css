@@ -94,6 +94,7 @@
 .center {
 	display: flex;
 	justify-content: center;
-	gap: 20px;
+	gap: 200px;
+	margin-top: 20px;
 }
 
