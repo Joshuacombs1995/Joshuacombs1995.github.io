@@ -92,11 +92,7 @@
 }
 
 .center img {
-	display: inline-block;
-	margin: 0 100px;
-}
-
-.center {
-  text-align: center;
+	display: flex;
+	justify-content: center;
 }
 
