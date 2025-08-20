@@ -91,7 +91,7 @@
 	background-color: white;
 }
 
-.wrapper {
-	margin: 0 auto;
-	width: 1000px;
+.center img {
+	display: inline-block;
+	margin: 0 10px;
 }
